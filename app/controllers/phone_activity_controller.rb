@@ -1,8 +1,5 @@
-class ActivityController < ApplicationController
-  def index
-  end
-  
-  def phone
+class PhoneActivityController < ApplicationController
+  def create
     direction = params[:d]
     number = params[:n]
     location = params[:l]
