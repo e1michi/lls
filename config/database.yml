@@ -15,8 +15,8 @@ test:
 
 production:
   adapter: postgresql
-  host: ec2-23-23-217-139.compute-1.amazonaws.com
-  database: artqtzyfwt
-  username: artqtzyfwt
-  password: skNYQvuNw6dOZ_i9nIMP
+  host: ec2-23-23-234-187.compute-1.amazonaws.com
+  database: resource44595
+  username: mzkjytpaxmferz
+  password: Qht3RTzuDnU4gyA0k1qvd3MHNd
   encoding: utf8
