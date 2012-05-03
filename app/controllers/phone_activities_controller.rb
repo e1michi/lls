@@ -1,7 +1,7 @@
 class PhoneActivitiesController < ApplicationController
   active_scaffold :phone_activity do |conf|
+    conf.columns = [:direction, :number, :location, :updated_at, :created_at]
 #    config.label = "Customers"
-#    config.columns = [:name, :phone, :company_type, :comments]
 #    list.columns.exclude :comments
 #    list.sorting = {:name => 'ASC'}
 #    columns[:phone].label = "Phone #"
