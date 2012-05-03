@@ -1,0 +1,2 @@
+module PhoneActivitiesHelper
+end
