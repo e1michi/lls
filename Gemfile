@@ -46,5 +46,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'active_scaffold_vho'
+gem 'active_scaffold'
 gem 'haml'
