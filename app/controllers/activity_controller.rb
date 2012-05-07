@@ -6,6 +6,7 @@ class ActivityController < ApplicationController
     a = Activity.new
     a.user = params[:u]
     a.device = params[:d]
+    a.type = params[:t]
     a.json = params[:j]
     a.save
     render :index
