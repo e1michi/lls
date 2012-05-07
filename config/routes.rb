@@ -1,4 +1,6 @@
 LLS::Application.routes.draw do
+  resources :activities do as_routes end
+
   resources :users do as_routes end
   resources :phone_activities do as_routes end
 
