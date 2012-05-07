@@ -4,7 +4,7 @@ LLS::Application.routes.draw do
   resources :users do as_routes end
   resources :phone_activities do as_routes end
 
-  get "activity/phone"
+  post "activity/create"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
