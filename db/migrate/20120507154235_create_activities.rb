@@ -3,7 +3,7 @@ class CreateActivities < ActiveRecord::Migration
     create_table :activities do |t|
       t.string :user
       t.string :device
-      t.string :type
+      t.string :source
       t.string :json
       t.timestamps
     end
